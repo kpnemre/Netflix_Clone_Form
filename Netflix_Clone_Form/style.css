@@ -5,6 +5,7 @@ body{
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 h1{
 
@@ -41,10 +42,11 @@ form{
 #age,
 #dropdown {
   margin-top: 16px;
-  height: 36px;
+  height: 46px;
   width: 400px;
   border: none;
   padding: 10px;
+  border-radius: 3%;
 }
 .box{
     margin-top: 20px;
